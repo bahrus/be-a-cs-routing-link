@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "xtal-decor": "0.0.22",
+    "xtal-element": "0.0.305"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bahrus/be-a-cs-routing-link.git"
