@@ -1,12 +1,12 @@
 import {XtalDecor} from 'xtal-decor/xtal-decor.js';
 import {define} from 'xtal-element/XtalElement.js';
-export const route_change = 'route-change';
+export const route_changed = 'route-changed';
 export class BeANavLink extends XtalDecor {
     static is='be-a-nav-link';
     on = {
         click:({self}: any, e: Event) =>{
             e.preventDefault();
-            self.dispatchEvent(new CustomEvent(route_change, {
+            self.dispatchEvent(new CustomEvent(route_changed, {
                 detail: {
                     link: this
                 }
