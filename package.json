@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "xtal-decor": "0.0.23",
-    "xtal-element": "0.0.315"
+    "xtal-decor": "0.0.27",
+    "xtal-element": "0.0.347"
   },
   "repository": {
     "type": "git",
